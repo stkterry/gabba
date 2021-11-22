@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for Guild project (Gabba Chat)",
+  "main": "server.js",
+  "author": "stkterry <31839035+stkterry@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/index.js",
+    "server": "nodemon ./src/index.js",
+    "server:debug": "nodemon --inspect ./src/index.js"
+  },
+  "dependencies": {
+    "@polka/send-type": "^0.5.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "polka": "^0.5.2",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.15"
+  }
+}

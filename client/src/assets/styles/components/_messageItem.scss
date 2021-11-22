@@ -1,0 +1,31 @@
+
+
+.message-item {
+  margin: 20px 0;
+
+  header {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 4px;
+    padding: 0;
+    h5 {
+      color: $color-sec-med;
+      background: $color-pri-dark;
+      border-radius: $radius;
+      margin: 0;
+      padding: 0 8px;
+    }
+    h6 {
+      font-style: italic;
+      margin: 0;
+      padding: 0 8px;
+    }
+
+  }
+
+  p {
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -1,0 +1,38 @@
+
+.input-text {
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin: 0 0 8px 0;
+  padding: 4px;
+  background: $color-pri-light;
+
+  &:focus {
+    border-color: $color-sec-dark;
+  }
+
+  &::placeholder {
+    color: $color-text-light;
+  }
+}
+
+.button {
+  cursor: pointer;
+  background: $color-pri-med;
+  border: 1px solid $color-pri-med;
+  color: $color-text-light;
+  border-radius: $radius;
+  margin: 4px 0;
+  font-weight: bold;
+  padding: 4px;
+
+  &:hover {
+    background: $color-sec-light;
+    border-color: $color-sec-dark;
+  }
+}
+
+.textarea {
+  height: 100%;
+  margin: 8px;
+}

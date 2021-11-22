@@ -1,0 +1,49 @@
+
+
+.navigation {
+
+  &-panel {
+
+    @extend .no-select;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 52px;
+    background: $color-pri-dark;
+    color: $color-text-light;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 16px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.5);
+    
+  }
+
+  &-app {
+    h2 {
+      margin: 0;
+    }
+    p {
+      font-style: italic;
+      font-size: small;
+      margin: 0 0 0 8px;
+    }
+  }
+
+  &-in {
+    display: flex;
+    align-items: center;
+    h5 {
+      color: $color-sec-med;
+      background: $color-pri-dark;
+      border-radius: 10px;
+      margin: 0;
+      margin-right: 16px;
+      padding: 2px 8px;
+      border: 1px solid $color-sec-med;
+    }
+  }
+
+}

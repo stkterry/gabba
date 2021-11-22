@@ -1,0 +1,28 @@
+{
+  "name": "gabba",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "stkterry <31839035+stkterry@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "client-install": "yarn workspace client install",
+    "server-install": "yarn workspace server install",
+    "client-build": "yarn workspace client build",
+    "client-build-alt": "yarn workspace client build-alt",
+    "dev": "concurrently \"yarn workspace client dev \" \"yarn workspace server server:debug\"",
+    "dev-alt": "concurrently \"yarn workspace client dev-alt \" \"yarn workspace server server:debug\"",
+    "staging": "NODE_ENV='staging' node ./app.js"
+  },
+  "dependencies": {
+    "serve-static": "^1.14.1",
+    "sirv": "^1.0.18"
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "devDependencies": {
+    "concurrently": "^6.4.0"
+  }
+}

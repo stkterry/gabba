@@ -1,0 +1,16 @@
+
+.pane-header {
+  margin: 0;
+  padding: 8px 8px;
+  background: $color-pri-med-dark;
+  color: $color-text-light;
+  color: $color-text-light;
+
+  h1 {
+    margin: 0;
+    padding: 0 8px;
+    background: $color-pri-dark;
+    border: 1px solid $color-sec-dark;
+    border-radius: $radius;
+  }
+}

@@ -1,0 +1,44 @@
+
+
+.login-pane {
+  width: 100%;
+  background: $color-pri-med-dark;
+
+  overflow-y: auto;
+
+  &-container {
+    color: $color-text-light;
+    margin: 16px;
+    background: $color-pri-dark;
+    
+    border-radius: 16px;
+    padding: 16px 16px 16px 16px;
+
+    width: calc(100% - 64px);
+  }
+  
+  &-in {
+    
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-presets {
+
+    h5 {
+      margin-bottom: 8px;
+      padding: 0;
+    }
+
+    div {
+      border: 1px solid $color-sec-dark;
+      padding: 4px;
+      border-radius: $radius;
+      margin-bottom: 16px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+
+}
