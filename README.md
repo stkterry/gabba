@@ -13,7 +13,6 @@ Before you run the application, there's one file you need to add that's been
 excluded for security reasons, a *keys_dev.js* file.
 
 In the server/src/config directory, please add a file named *keys_dev.js* with the following content:
-PLEAES REFER TO ATTACHED DOCUMENTS FOR PASSWORD!
 ```js
 // server/src/config/keys_dev.js
 // Replace USERNAME/PASSWORD_HERE with credentials in added documents!
@@ -22,6 +21,8 @@ module.exports = {
   secretOrKey: 'none'
 }
 ```
+PLEAES REFER TO ATTACHED DOCUMENTS FOR PASSWORD!
+
 *The user/password is limited to read/write in just one database and expires in 1 week.  Please let me know if renewed credentials are needed!*
 
 ### Installing
