@@ -17,7 +17,7 @@ In the server/src/config directory, please add a file named *keys_dev.js* with t
 // server/src/config/keys_dev.js
 // Replace USERNAME/PASSWORD_HERE with credentials in added documents!
 module.exports = {
-  mongoURI: 'mongodb+srv://USERNAME:PASSWORD_HEREg@gabba-chat-dev.5nzne.mongodb.net/guild-project?retryWrites=true&w=majority',
+  mongoURI: 'mongodb+srv://USERNAME:PASSWORD_HERE@gabba-chat-dev.5nzne.mongodb.net/guild-project?retryWrites=true&w=majority',
   secretOrKey: 'none'
 }
 ```
